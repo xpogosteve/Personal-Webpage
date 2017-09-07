@@ -1,0 +1,67 @@
+body{
+  font-family: Helvetica;
+  background-color: #D3D3D3;
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -150px 0 0 -300px;
+}
+.profPic{
+  position: relative;
+  float: left;
+  border-right: 5px solid black;
+}
+  .profPic img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    padding: 1em;
+  }
+.info{
+  position: relative;
+  float: right;
+  padding-left: 5em;
+}
+.name{
+  position: relative;
+  font-size: 25px;
+  text-align: center;
+}
+.job{
+  position: relative;
+  text-align: center;
+  padding-top: .25em;
+}
+.resume{
+  position: relative;
+  text-align: center;
+  padding-top: 1em;
+}
+  .resume a{
+    color: black;
+    text-decoration: none;
+  }
+  .resume a:hover{
+    color: navy;
+    text-decoration: underline;
+  }
+.links{
+  position: relative;
+  text-align: center;
+  padding-top: 6em;
+}
+#fa-icon{
+  position:relative;
+  color: black;
+  padding-right: .1em;
+}
+  #fa-icon:hover{
+    color: navy;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+  }
