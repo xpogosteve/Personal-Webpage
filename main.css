@@ -9,7 +9,7 @@ body{
   border-radius: 10px;
   top: 50%;
   left: 50%;
-  margin: -150px 0 0 -300px;
+  margin: -200px 0 0 -450px;
 }
 .profPic{
   position: relative;
@@ -18,8 +18,8 @@ body{
 }
   .profPic img{
     border-radius: 50%;
-    height: 200px;
-    width: 200px;
+    height: 350px;
+    width: 350px;
     padding: 1em;
   }
 .info{
@@ -29,14 +29,31 @@ body{
 }
 .name{
   position: relative;
-  font-size: 25px;
+  font-size: 35px;
   text-align: center;
 }
 .job{
   position: relative;
   text-align: center;
   padding-top: .25em;
+  font-size: 25px;
 }
+.summary{
+  display:inline-block;
+  position: relative;
+  text-align: center;
+  padding-top: 2em;
+}
+  .summary img{
+    float:left;
+    border-radius: 50%;
+    height: 50px;
+    width: 75px;
+    padding: 1em;
+  }
+  .summary p{
+    padding-top: .5em;
+  }
 .resume{
   position: relative;
   text-align: center;
