@@ -6,6 +6,10 @@ function newBackground(){
 }
 $(document).ready(function(){
   $('body').css('background-image',images[0]);
+  $('body').css('background-repeat', 'no-repeat');
+  $('body').css('background-size', '120em 60em');
+  $('body').css('background-position', 'center');
+  $('body').css('transition', 'background-image 1s ease-in-out')
   $('.content').hide().delay(200).fadeIn('slow');
   setTimeout(newBackground, 10000);
 });
