@@ -44,16 +44,28 @@ body{
   text-align: center;
   padding-top: 2em;
 }
-  .summary img{
-    float:left;
-    border-radius: 50%;
-    height: 50px;
-    width: 75px;
-    padding: 1em;
-  }
   .summary p{
     padding-top: .5em;
   }
+.second{
+  text-align: center;
+  padding-top: 1em;
+}
+  .second p{
+    padding-top: .1em;
+  }
+.goog{
+  float:left;
+  height: 50px;
+  width: 50px;
+  padding: 1em 1em 0em .50em;
+}
+.mmm{
+  float:left;
+  height: 35px;
+  width: 65px;
+  padding: 1em .75em 0em 0em;
+}
 .resume{
   position: relative;
   text-align: center;
@@ -70,7 +82,7 @@ body{
 .links{
   position: relative;
   text-align: center;
-  padding-top: 6em;
+  padding-top: 3em;
 }
 #fa-icon{
   position:relative;
