@@ -16,6 +16,8 @@ $(document).ready(function(){
     $('body').css('background-image',images[5]);
     $('body').css('background-repeat', 'no-repeat');
     $('body').css('background-size', 'cover');
+    $('body').css('-webkit-background-size', 'cover');
+    $('body').css('-moz-background-size', 'cover');
     $('body').css('background-position', 'center');
     $('body').css('transition', 'background-image 1s ease-in-out')
     setTimeout(newBackground, 10000);
